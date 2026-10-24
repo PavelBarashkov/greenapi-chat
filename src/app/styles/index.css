@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-feed: #f7f8fa;
+  --color-border: #e5e7eb;
+  --color-border-soft: #f0f1f3;
+  --color-border-strong: #d1d5db;
+  --color-text: #111827;
+  --color-text-label: #374151;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-placeholder: #9ca3af;
+  --color-accent: #047857;
+  --color-accent-hover: #065f46;
+  --color-accent-soft: #eef6f1;
+  --color-bubble-out: #dcf3e6;
+  --color-field: #f9fafb;
+  --color-chip: #eaecef;
+  --color-danger: #b91c1c;
+  --color-overlay: rgb(17 24 39 / 32%);
+  --shadow-dialog: 0 24px 64px rgb(17 24 39 / 20%);
+  --focus-ring: 0 0 0 3px rgb(4 120 87 / 25%);
+
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+input::placeholder {
+  color: var(--color-placeholder);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}

@@ -1,0 +1,12 @@
+export const DEFAULT_REQUEST_TIMEOUT_MS = 15_000
+
+export const RECEIVE_REQUEST_TIMEOUT_MARGIN_MS = 10_000
+
+export const RECEIVE_TIMEOUT_SEC = 5
+
+export const RECEIVE_TIMEOUT_MAX_SEC = 60
+
+export const BACKOFF_BASE_MS = 3_000
+export const BACKOFF_MAX_MS = 30_000
+
+export const BACKOFF_RATE_LIMIT_MIN_MS = 10_000

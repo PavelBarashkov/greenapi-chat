@@ -1,0 +1,55 @@
+.page {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.backdrop {
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex: 0 0 clamp(240px, 30%, 360px);
+  flex-direction: column;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--color-border-soft);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebarField {
+  height: 44px;
+  margin: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-field);
+}
+
+.feed {
+  flex: 1;
+  min-width: 0;
+  background: var(--color-feed);
+}
+
+.overlay {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--color-overlay);
+  backdrop-filter: blur(10px);
+}

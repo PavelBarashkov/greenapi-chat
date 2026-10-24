@@ -1,0 +1,6 @@
+.page {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  background: var(--color-bg);
+}
